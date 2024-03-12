@@ -1,0 +1,135 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/oktay/Desktop/repo/soc_course/uvvm_test
+vaxi_lite_slave
+Z0 !s110 1710277140
+!i10b 1
+!s100 eaz`JPV_IXeDi5A6=8j2X3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ibf>[MjOYdESZ@;YDGG2<U3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_lite_test/sim
+w1710188811
+8C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_lite_test/src/axi_lite_slave.v
+FC:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_lite_test/src/axi_lite_slave.v
+!i122 97
+L0 4 709
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1710277140.000000
+!s107 C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_lite_test/src/axi_lite_slave.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_lite_test/src/axi_lite_slave.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+Eaxi_lite_tb
+Z8 w1710277136
+Z9 DPx18 bitvis_vip_axilite 15 axilite_bfm_pkg 0 22 @Ah2[78ma?>bW]Te[?9:92
+Z10 D^#x9 uvvm_util 17 uvvm_util_context 0 22 VIeL_T@^nGBO`3VDj:6^o0
+Z11 DPx9 uvvm_util 12 func_cov_pkg 0 22 9EQkZ^c@2TVQ]=STVZKXh3
+Z12 DPx9 uvvm_util 8 rand_pkg 0 22 i8fV@1=g=70jJGXB48^BB1
+Z13 DPx9 uvvm_util 14 bfm_common_pkg 0 22 :zKRB9a4SU2UBNiFgOGbQ0
+Z14 DPx3 std 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
+Z15 DPx9 uvvm_util 19 alert_hierarchy_pkg 0 22 20^ReV1SlPIUKUE0S6G751
+Z16 DPx9 uvvm_util 11 license_pkg 0 22 Z`YkXoOQU[c2J;fZE5mVm1
+Z17 DPx9 uvvm_util 11 methods_pkg 0 22 W=o>diGg]aeaG6F^_08Zg3
+Z18 DPx9 uvvm_util 25 hierarchy_linked_list_pkg 0 22 =FC85Bb03M1jJK0@Xi[<Z1
+Z19 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+Z20 DPx9 uvvm_util 18 string_methods_pkg 0 22 dn;1CMS7f>_1ZIOW45PjV2
+Z21 DPx9 uvvm_util 19 protected_types_pkg 0 22 ]Qf^dSgWda9adh=in20Fc2
+Z22 DPx9 uvvm_util 15 adaptations_pkg 0 22 Ugo=4goD?6UmSG1=JGne21
+Z23 DPx9 uvvm_util 39 global_signals_and_shared_variables_pkg 0 22 k_bbj`DBmlK5]ZQU=A8nn0
+Z24 DPx9 uvvm_util 9 types_pkg 0 22 Z_B>lkao@c4f?3z5];8891
+Z25 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z26 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z27 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 99
+R3
+Z28 8C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_lite_test/sim/axi_lite_tb.vhd
+Z29 FC:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_lite_test/sim/axi_lite_tb.vhd
+l0
+L14 1
+VkH7T`?VaXX:ASlZQIKP<:3
+!s100 3]2>iZ54_hY`34kf@6JAh0
+Z30 OV;C;2020.1;71
+33
+R0
+!i10b 1
+R5
+Z31 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_lite_test/sim/axi_lite_tb.vhd|
+Z32 !s107 C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_lite_test/sim/axi_lite_tb.vhd|
+!i113 1
+Z33 o-work work -2008 -explicit
+Z34 tExplicit 1 CvgOpt 0
+Asim
+Z35 DPx7 verilog 8 vl_types 0 22 bmGnzhS4n>6F^Dki9hX>O3
+Z36 DEx4 work 12 axi_lite_top 0 22 Dg1SIo80bB@j0V0VzS_@n1
+R9
+R10
+R11
+R12
+R13
+R14
+R15
+R16
+R17
+R18
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R27
+Z37 DEx4 work 11 axi_lite_tb 0 22 kH7T`?VaXX:ASlZQIKP<:3
+!i122 99
+l50
+Z38 L17 201
+V[WW3ARhUA3PdOHbmC[]bS3
+!s100 21a<n^z;9_coYg2b?2^zO3
+R30
+33
+R0
+!i10b 1
+R5
+R31
+R32
+!i113 1
+R33
+R34
+vaxi_lite_top
+R0
+!i10b 1
+!s100 ;YB8SKE>Ej>o>0V3PZ1Eb1
+R1
+IkIBA=V_db7g?I;7KH^igG3
+R2
+R3
+w1710191574
+8C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_lite_test/src/axi_lite_top.v
+FC:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_lite_test/src/axi_lite_top.v
+!i122 98
+L0 4 76
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_lite_test/src/axi_lite_top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_lite_test/src/axi_lite_top.v|
+!i113 1
+R6
+R7
