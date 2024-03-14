@@ -35,3 +35,11 @@ Adding the paths to the compiled UVVM libraries in this `modelsim.ini` file enab
 Following the outlined steps prepares users for simulating and verifying SoC designs using the UVVM library within ModelSim 20.1. This setup facilitates thorough testing and verification of SoC implementations, ensuring their utmost reliability and performance.
 
 Appreciation is extended to all visitors of this repository, hoping this guide proves helpful in SoC design and verification projects.
+
+
+
+
+## Projects
+
+- [Testing UVVM Library](https://github.com/oktayogutcu/soc_imp/tree/main/uvvm_test)
+- [Testing AXI4-Lite Interface with UVVM Library](https://github.com/oktayogutcu/soc_imp/tree/main/axi_lite_test)
