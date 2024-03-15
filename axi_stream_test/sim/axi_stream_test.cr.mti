@@ -1,1 +1,22 @@
+C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_stream_test/src/axi_stream_slave.v {1 {vlog -work work -stats=none C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_stream_test/src/axi_stream_slave.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module axi_stream_slave
 
+Top level modules:
+	axi_stream_slave
+
+} {} {}} C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_stream_test/src/axi_stream_top.v {1 {vlog -work work -stats=none C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_stream_test/src/axi_stream_top.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module axi_stream_top
+
+Top level modules:
+	axi_stream_top
+
+} {} {}} C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_stream_test/src/axi_stream_master.v {1 {vlog -work work -stats=none C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_stream_test/src/axi_stream_master.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module axi_stream_master
+
+Top level modules:
+	axi_stream_master
+
+} {} {}}

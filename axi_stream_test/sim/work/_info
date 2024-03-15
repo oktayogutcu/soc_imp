@@ -1,6 +1,8 @@
 m255
 K4
 z2
+!s11e MIXED_VERSIONS
+!s11f vlog 2020.1 2020.02, Feb 28 2020
 13
 !s112 1.1
 !i10d 8192
@@ -8,3 +10,226 @@ z2
 !i10f 100
 cModel Technology
 dC:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_lite_test/sim
+Eaxi_lite_tb
+Z0 w1710488084
+Z1 DPx20 bitvis_vip_axistream 17 axistream_bfm_pkg 0 22 HQ02GlcoMo7KJKcRnSSL]0
+Z2 D^#x9 uvvm_util 17 uvvm_util_context 0 22 VIeL_T@^nGBO`3VDj:6^o0
+Z3 DPx9 uvvm_util 12 func_cov_pkg 0 22 9EQkZ^c@2TVQ]=STVZKXh3
+Z4 DPx9 uvvm_util 8 rand_pkg 0 22 i8fV@1=g=70jJGXB48^BB1
+Z5 DPx9 uvvm_util 14 bfm_common_pkg 0 22 :zKRB9a4SU2UBNiFgOGbQ0
+Z6 DPx3 std 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
+Z7 DPx9 uvvm_util 19 alert_hierarchy_pkg 0 22 20^ReV1SlPIUKUE0S6G751
+Z8 DPx9 uvvm_util 11 license_pkg 0 22 Z`YkXoOQU[c2J;fZE5mVm1
+Z9 DPx9 uvvm_util 11 methods_pkg 0 22 W=o>diGg]aeaG6F^_08Zg3
+Z10 DPx9 uvvm_util 25 hierarchy_linked_list_pkg 0 22 =FC85Bb03M1jJK0@Xi[<Z1
+Z11 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+Z12 DPx9 uvvm_util 18 string_methods_pkg 0 22 dn;1CMS7f>_1ZIOW45PjV2
+Z13 DPx9 uvvm_util 19 protected_types_pkg 0 22 ]Qf^dSgWda9adh=in20Fc2
+Z14 DPx9 uvvm_util 15 adaptations_pkg 0 22 Ugo=4goD?6UmSG1=JGne21
+Z15 DPx9 uvvm_util 39 global_signals_and_shared_variables_pkg 0 22 k_bbj`DBmlK5]ZQU=A8nn0
+Z16 DPx9 uvvm_util 9 types_pkg 0 22 Z_B>lkao@c4f?3z5];8891
+Z17 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z18 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z19 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 142
+Z20 dC:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_stream_test/sim
+Z21 8C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_stream_test/sim/axi_stream_tb.vhd
+Z22 FC:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_stream_test/sim/axi_stream_tb.vhd
+l0
+Z23 L14 1
+V9NiebXN[B=WhnD>QiaX3N3
+!s100 i]GS9KWK5l94HFFSi;TlV3
+Z24 OV;C;2020.1;71
+33
+Z25 !s110 1710488151
+!i10b 1
+Z26 !s108 1710488150.000000
+Z27 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_stream_test/sim/axi_stream_tb.vhd|
+Z28 !s107 C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_stream_test/sim/axi_stream_tb.vhd|
+!i113 1
+Z29 o-work work -2008 -explicit
+Z30 tExplicit 1 CvgOpt 0
+Asim
+Z31 DPx7 verilog 8 vl_types 0 22 bmGnzhS4n>6F^Dki9hX>O3
+Z32 DEx4 work 14 axi_stream_top 0 22 Dg1SIo80bB@j0V0VzS_@n1
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+R11
+R12
+R13
+R14
+R15
+R16
+R17
+R18
+R19
+DEx4 work 11 axi_lite_tb 0 22 9NiebXN[B=WhnD>QiaX3N3
+!i122 142
+l40
+Z33 L17 134
+VN][BX6KW=n@dVW7?L86EJ1
+!s100 ^nc;UK81KAROGm;DQbcNA3
+R24
+33
+R25
+!i10b 1
+R26
+R27
+R28
+!i113 1
+R29
+R30
+vaxi_stream_master
+Z34 !s110 1710488357
+!i10b 1
+!s100 <K;chB;VO2c?5X@bg3JG91
+Z35 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IW>OV][QZ2]XN_>Nd`ed0[3
+Z36 VDg1SIo80bB@j0V0VzS_@n1
+R20
+w1710362817
+8C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_stream_test/src/axi_stream_master.v
+FC:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_stream_test/src/axi_stream_master.v
+!i122 143
+L0 4 225
+Z37 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z38 !s108 1710488357.000000
+!s107 C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_stream_test/src/axi_stream_master.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_stream_test/src/axi_stream_master.v|
+!i113 1
+Z39 o-work work
+Z40 tCvgOpt 0
+vaxi_stream_slave
+R34
+!i10b 1
+!s100 W;RKJCFL_S`8dk5PVXnQ[0
+R35
+IUSN`lP<PG[T7[k]mM;me?3
+R36
+R20
+w1710363024
+8C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_stream_test/src/axi_stream_slave.v
+FC:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_stream_test/src/axi_stream_slave.v
+!i122 144
+L0 4 164
+R37
+r1
+!s85 0
+31
+R38
+!s107 C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_stream_test/src/axi_stream_slave.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_stream_test/src/axi_stream_slave.v|
+!i113 1
+R39
+R40
+Eaxi_stream_tb
+Z41 w1710488353
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+R11
+R12
+R13
+R14
+R15
+R16
+R17
+R18
+R19
+!i122 146
+R20
+R21
+R22
+l0
+R23
+V8`C@^CCKnWHQ[OAld^[?43
+!s100 >jOel=j2^6?MTB`F3SK>43
+R24
+33
+R34
+!i10b 1
+R38
+R27
+R28
+!i113 1
+R29
+R30
+Asim
+R31
+R32
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+R11
+R12
+R13
+R14
+R15
+R16
+R17
+R18
+R19
+DEx4 work 13 axi_stream_tb 0 22 8`C@^CCKnWHQ[OAld^[?43
+!i122 146
+l40
+R33
+VhndlWONnfV?32POzFJNhi2
+!s100 H2QoScUlnaJzl_Y0gb@n:1
+R24
+33
+R34
+!i10b 1
+R38
+R27
+R28
+!i113 1
+R29
+R30
+vaxi_stream_top
+R34
+!i10b 1
+!s100 UzCzKcR`DV??f`dCcEn6g2
+R35
+IR0STT2E7Hi6NECOc9XIIm0
+R36
+R20
+w1710449886
+8C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_stream_test/src/axi_stream_top.v
+FC:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_stream_test/src/axi_stream_top.v
+!i122 145
+L0 4 72
+R37
+r1
+!s85 0
+31
+R38
+!s107 C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_stream_test/src/axi_stream_top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_stream_test/src/axi_stream_top.v|
+!i113 1
+R39
+R40
