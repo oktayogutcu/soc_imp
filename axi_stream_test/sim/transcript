@@ -14198,3 +14198,9 @@ run -all
 # UVVM: ID_LOG_HDR                      1852.5 ns  TB seq.                        SIMULATION COMPLETED
 # UVVM: -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Break in Process p_main at C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_stream_test/sim/axi_stream_tb.vhd line 147
+add wave -position end  sim:/axi_stream_tb/DUT/axi_stream_slave_inst/fifo_rden
+add wave -position 7  sim:/axi_stream_tb/DUT/axi_stream_slave_inst/fifo_wren
+add wave -position end  sim:/axi_stream_tb/DUT/axi_stream_slave_inst/read_data
+add wave -position end  sim:/axi_stream_tb/DUT/axi_stream_slave_inst/data_valid
+add wave -position end  sim:/axi_stream_tb/DUT/axi_stream_slave_inst/write_pointer
+add wave -position end  sim:/axi_stream_tb/DUT/axi_stream_slave_inst/read_pointer
