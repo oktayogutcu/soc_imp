@@ -1,16 +1,37 @@
-C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_stream_test/src/axi_stream_slave.v {1 {vlog -work work -stats=none C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_stream_test/src/axi_stream_slave.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module axi_stream_slave
-
-Top level modules:
-	axi_stream_slave
-
-} {} {}} C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_stream_test/src/axi_stream_top.v {1 {vlog -work work -stats=none C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_stream_test/src/axi_stream_top.v
+C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_stream_test/src/axi_stream_top.v {1 {vlog -work work -stats=none C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_stream_test/src/axi_stream_top.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module axi_stream_top
 
 Top level modules:
 	axi_stream_top
+
+} {} {}} C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_stream_test/sim/axi_stream_tb.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_stream_test/sim/axi_stream_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading context declaration uvvm_util_context
+-- Loading package types_pkg
+-- Loading package adaptations_pkg
+-- Loading package MATH_REAL
+-- Loading package string_methods_pkg
+-- Loading package protected_types_pkg
+-- Loading package global_signals_and_shared_variables_pkg
+-- Loading package hierarchy_linked_list_pkg
+-- Loading package license_pkg
+-- Loading package ENV
+-- Loading package alert_hierarchy_pkg
+-- Loading package methods_pkg
+-- Loading package bfm_common_pkg
+-- Loading package rand_pkg
+-- Loading package func_cov_pkg
+-- Loading context declaration uvvm_util_context
+-- Loading package axistream_bfm_pkg
+-- Compiling entity axi_stream_tb
+-- Compiling architecture sim of axi_stream_tb
+-- Loading package vl_types
+-- Loading entity axi_stream_top
 
 } {} {}} C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_stream_test/src/axi_stream_master.v {1 {vlog -work work -stats=none C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_stream_test/src/axi_stream_master.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020

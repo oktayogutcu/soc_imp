@@ -13,7 +13,9 @@
 	)
 	(
 		// Users to add ports here
-
+		input wire read_data,
+		output wire data_valid,
+		output reg [C_S_AXIS_TDATA_WIDTH-1 : 0] fifo_data,
 		// User ports ends
 		// Do not modify the ports beyond this line
 
@@ -59,10 +61,16 @@
 	genvar byte_index;     
 	// FIFO write enable
 	wire fifo_wren;
+	// FIFO read enable
+	wire fifo_rden;
 	// FIFO full flag
 	reg fifo_full_flag;
+	// FIFO empty flag
+	reg fifo_empty_flag;
 	// FIFO write pointer
 	reg [bit_num-1:0] write_pointer;
+	// FIFO read pointer
+    reg [bit_num-1:0] read_pointer;
 	// sink has accepted all the streaming data and stored in FIFO
 	reg writes_done;
 	// I/O Connections assignments
@@ -133,29 +141,60 @@
 	            begin
 	              // reads_done is asserted when NUMBER_OF_INPUT_WORDS numbers of streaming data 
 	              // has been written to the FIFO which is also marked by S_AXIS_TLAST(kept for optional usage).
-	              writes_done <= 1'b1;
+	              writes_done <= 1'b0;
 	            end
 	      end  
 	end
 
+
+    always @(posedge S_AXIS_ACLK)
+    begin
+        if (!S_AXIS_ARESETN)
+        begin
+            read_pointer <= 0;
+        end
+        else
+        begin
+            if (fifo_rden && read_pointer != write_pointer)
+            begin
+                if (read_pointer < NUMBER_OF_INPUT_WORDS - 1)
+                    read_pointer <= read_pointer + 1;
+                else
+                    read_pointer <= 0;
+            end
+        end
+    end
+	
+	
 	// FIFO write enable generation
 	assign fifo_wren = S_AXIS_TVALID && axis_tready;
-
+	assign fifo_rden = read_data && !fifo_empty_flag;
+	assign data_valid = !fifo_empty_flag;
+	
+	
 	// FIFO Implementation
 	generate 
 	  for(byte_index=0; byte_index<= (C_S_AXIS_TDATA_WIDTH/8-1); byte_index=byte_index+1)
 	  begin:FIFO_GEN
 
-	    reg  [(C_S_AXIS_TDATA_WIDTH/4)-1:0] stream_data_fifo [0 : NUMBER_OF_INPUT_WORDS-1];
+	    reg  [(C_S_AXIS_TDATA_WIDTH)-1:0] stream_data_fifo [0 : NUMBER_OF_INPUT_WORDS-1];
 
 	    // Streaming input data is stored in FIFO
-
+		//assign fifo_data = stream_data_fifo[read_pointer];
+		always @*
+		begin
+			fifo_data = stream_data_fifo[read_pointer];
+			fifo_empty_flag = read_pointer == write_pointer ? 1 : 0;
+			fifo_full_flag = (write_pointer - read_pointer) == NUMBER_OF_INPUT_WORDS ? 1 : 0;
+		end
+	
 	    always @( posedge S_AXIS_ACLK )
 	    begin
 	      if (fifo_wren)// && S_AXIS_TSTRB[byte_index])
 	        begin
-	          stream_data_fifo[write_pointer] <= S_AXIS_TDATA[(byte_index*8+7) -: 8];
-	        end  
+	          stream_data_fifo[write_pointer] <= S_AXIS_TDATA;
+	        end 
+			
 	    end  
 	  end		
 	endgenerate

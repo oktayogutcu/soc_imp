@@ -125,9 +125,11 @@ begin
 		wait for C_CLOCK_PERIOD*10;
 		
 		for i in 0 to 255 loop
-			v_data_array(i)       := random(8); 
-			--exp_data_array(i)     <= std_logic_vector(unsigned(v_data_array10(i)(c_axistream_data_width-1 downto c_axistream_data_width/2)) * 
-              --                  unsigned(v_data_array10(i)(c_axistream_data_width/2-1 downto 0)));
+			if i mod 4 = 0 then
+				v_data_array(i) := std_logic_vector(to_unsigned(i, v_data_array(i)'length));
+			else 
+				v_data_array(i) := std_logic_vector(to_unsigned(0, v_data_array(i)'length));
+			end if;
 		end loop;
 
 		--Testing slave channel of DUT's AXI4-Stream interface.

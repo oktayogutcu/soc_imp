@@ -18,7 +18,7 @@
 	)
 	(
 		// Users to add ports here
-
+		
 		// User ports ends
 		// Do not modify the ports beyond this line
 
@@ -41,10 +41,20 @@
 		//output wire  m00_axis_tlast,
 		//input wire  m00_axis_tready
 	);
+	
+	reg 	read_counter;
+	wire [C_S00_AXIS_TDATA_WIDTH-1 : 0] 	input_data;
+	reg 	read_data;
+	wire 	data_valid;
+	
+	
 // Instantiation of Axi Bus Interface S00_AXIS
 	axi_stream_slave # ( 
 		.C_S_AXIS_TDATA_WIDTH(C_S00_AXIS_TDATA_WIDTH)
 	) axi_stream_slave_inst (
+		.read_data(read_data),
+		.data_valid(data_valid),
+		.fifo_data(input_data),
 		.S_AXIS_ACLK(s00_axis_aclk),
 		.S_AXIS_ARESETN(s00_axis_aresetn),
 		.S_AXIS_TREADY(s00_axis_tready),
@@ -69,7 +79,38 @@
 //	);
 
 	// Add user logic here
+	always@(posedge s00_axis_aclk)
+	begin
+		if(!s00_axis_aresetn)
+			begin
+				read_counter <= 0;
+				read_data <= 0;
+			end
+		else
+			begin
+				if(data_valid)
+					begin
+					if(read_counter == 8)
+						begin
+							read_counter <= 0;
+						end
+					else	
+						begin
+							read_counter <= read_counter + 1;
+						end
+						
 
+					if(read_counter < 4)
+						begin
+							read_data <= 1'b1;
+						end
+					else
+						begin
+							read_data <= 1'b0;
+						end
+					end
+			end
+	end
 	// User logic ends
 
 	endmodule
