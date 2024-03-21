@@ -11,7 +11,7 @@ z2
 cModel Technology
 dC:/Users/oktay/Desktop/repo/soc_course/uvvm_test
 vaxi_lite_slave
-Z0 !s110 1710277140
+Z0 !s110 1710362614
 !i10b 1
 !s100 eaz`JPV_IXeDi5A6=8j2X3
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -21,20 +21,20 @@ Z3 dC:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_lite_test/sim
 w1710188811
 8C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_lite_test/src/axi_lite_slave.v
 FC:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_lite_test/src/axi_lite_slave.v
-!i122 97
+!i122 100
 L0 4 709
 Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1710277140.000000
+Z5 !s108 1710362614.000000
 !s107 C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_lite_test/src/axi_lite_slave.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_lite_test/src/axi_lite_slave.v|
 !i113 1
 Z6 o-work work
 Z7 tCvgOpt 0
 Eaxi_lite_tb
-Z8 w1710277136
+Z8 w1710277839
 Z9 DPx18 bitvis_vip_axilite 15 axilite_bfm_pkg 0 22 @Ah2[78ma?>bW]Te[?9:92
 Z10 D^#x9 uvvm_util 17 uvvm_util_context 0 22 VIeL_T@^nGBO`3VDj:6^o0
 Z11 DPx9 uvvm_util 12 func_cov_pkg 0 22 9EQkZ^c@2TVQ]=STVZKXh3
@@ -54,7 +54,7 @@ Z24 DPx9 uvvm_util 9 types_pkg 0 22 Z_B>lkao@c4f?3z5];8891
 Z25 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 Z26 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z27 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 99
+!i122 102
 R3
 Z28 8C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_lite_test/sim/axi_lite_tb.vhd
 Z29 FC:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_lite_test/sim/axi_lite_tb.vhd
@@ -64,17 +64,17 @@ VkH7T`?VaXX:ASlZQIKP<:3
 !s100 3]2>iZ54_hY`34kf@6JAh0
 Z30 OV;C;2020.1;71
 33
-R0
+Z31 !s110 1710362615
 !i10b 1
 R5
-Z31 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_lite_test/sim/axi_lite_tb.vhd|
-Z32 !s107 C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_lite_test/sim/axi_lite_tb.vhd|
+Z32 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_lite_test/sim/axi_lite_tb.vhd|
+Z33 !s107 C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_lite_test/sim/axi_lite_tb.vhd|
 !i113 1
-Z33 o-work work -2008 -explicit
-Z34 tExplicit 1 CvgOpt 0
+Z34 o-work work -2008 -explicit
+Z35 tExplicit 1 CvgOpt 0
 Asim
-Z35 DPx7 verilog 8 vl_types 0 22 bmGnzhS4n>6F^Dki9hX>O3
-Z36 DEx4 work 12 axi_lite_top 0 22 Dg1SIo80bB@j0V0VzS_@n1
+Z36 DPx7 verilog 8 vl_types 0 22 bmGnzhS4n>6F^Dki9hX>O3
+Z37 DEx4 work 12 axi_lite_top 0 22 Dg1SIo80bB@j0V0VzS_@n1
 R9
 R10
 R11
@@ -94,22 +94,22 @@ R24
 R25
 R26
 R27
-Z37 DEx4 work 11 axi_lite_tb 0 22 kH7T`?VaXX:ASlZQIKP<:3
-!i122 99
+Z38 DEx4 work 11 axi_lite_tb 0 22 kH7T`?VaXX:ASlZQIKP<:3
+!i122 102
 l50
-Z38 L17 201
-V[WW3ARhUA3PdOHbmC[]bS3
-!s100 21a<n^z;9_coYg2b?2^zO3
+L17 200
+V=>aj5kfNmN?L1`6:g3L>80
+!s100 QRM?`XXiUmBbOfc:E^X1I3
 R30
 33
-R0
+R31
 !i10b 1
 R5
-R31
 R32
-!i113 1
 R33
+!i113 1
 R34
+R35
 vaxi_lite_top
 R0
 !i10b 1
@@ -121,7 +121,7 @@ R3
 w1710191574
 8C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_lite_test/src/axi_lite_top.v
 FC:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_lite_test/src/axi_lite_top.v
-!i122 98
+!i122 101
 L0 4 76
 R4
 r1

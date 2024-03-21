@@ -1,0 +1,189 @@
+UVVM:      
+UVVM:      --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UVVM:      ***  REPORT OF GLOBAL CTRL ***
+UVVM:      --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UVVM:                                IGNORE    STOP_LIMIT
+UVVM:                NOTE         :  REGARD         0
+UVVM:                TB_NOTE      :  REGARD         0
+UVVM:                WARNING      :  REGARD         0
+UVVM:                TB_WARNING   :  REGARD         0
+UVVM:                MANUAL_CHECK :  REGARD         0
+UVVM:                ERROR        :  REGARD         1
+UVVM:                TB_ERROR     :  REGARD         1
+UVVM:                FAILURE      :  REGARD         1
+UVVM:                TB_FAILURE   :  REGARD         1
+UVVM:      --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UVVM:      
+UVVM:      
+UVVM:      --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UVVM:      ***  REPORT OF MSG ID PANEL ***
+UVVM:      --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UVVM:                ID                             Status
+UVVM:                ------------------------       ------
+UVVM:                ID_UTIL_BURIED               : DISABLED
+UVVM:                ID_BITVIS_DEBUG              : DISABLED
+UVVM:                ID_UTIL_SETUP                : ENABLED
+UVVM:                ID_LOG_MSG_CTRL              : ENABLED
+UVVM:                ID_ALERT_CTRL                : ENABLED
+UVVM:                ID_FINISH_OR_STOP            : ENABLED
+UVVM:                ID_CLOCK_GEN                 : ENABLED
+UVVM:                ID_GEN_PULSE                 : ENABLED
+UVVM:                ID_BLOCKING                  : ENABLED
+UVVM:                ID_WATCHDOG                  : ENABLED
+UVVM:                ID_RAND_GEN                  : DISABLED
+UVVM:                ID_RAND_CONF                 : DISABLED
+UVVM:                ID_FUNC_COV_BINS             : DISABLED
+UVVM:                ID_FUNC_COV_BINS_INFO        : DISABLED
+UVVM:                ID_FUNC_COV_RAND             : DISABLED
+UVVM:                ID_FUNC_COV_SAMPLE           : DISABLED
+UVVM:                ID_FUNC_COV_CONFIG           : DISABLED
+UVVM:                ID_POS_ACK                   : ENABLED
+UVVM:                ID_LOG_HDR                   : ENABLED
+UVVM:                ID_LOG_HDR_LARGE             : ENABLED
+UVVM:                ID_LOG_HDR_XL                : ENABLED
+UVVM:                ID_SEQUENCER                 : ENABLED
+UVVM:                ID_SEQUENCER_SUB             : ENABLED
+UVVM:                ID_BFM                       : ENABLED
+UVVM:                ID_BFM_WAIT                  : ENABLED
+UVVM:                ID_BFM_POLL                  : ENABLED
+UVVM:                ID_BFM_POLL_SUMMARY          : ENABLED
+UVVM:                ID_CHANNEL_BFM               : ENABLED
+UVVM:                ID_TERMINATE_CMD             : ENABLED
+UVVM:                ID_SEGMENT_INITIATE          : ENABLED
+UVVM:                ID_SEGMENT_COMPLETE          : ENABLED
+UVVM:                ID_SEGMENT_HDR               : ENABLED
+UVVM:                ID_SEGMENT_DATA              : ENABLED
+UVVM:                ID_PACKET_INITIATE           : ENABLED
+UVVM:                ID_PACKET_PREAMBLE           : ENABLED
+UVVM:                ID_PACKET_COMPLETE           : ENABLED
+UVVM:                ID_PACKET_HDR                : ENABLED
+UVVM:                ID_PACKET_DATA               : ENABLED
+UVVM:                ID_PACKET_CHECKSUM           : ENABLED
+UVVM:                ID_PACKET_GAP                : ENABLED
+UVVM:                ID_PACKET_PAYLOAD            : ENABLED
+UVVM:                ID_FRAME_INITIATE            : ENABLED
+UVVM:                ID_FRAME_COMPLETE            : ENABLED
+UVVM:                ID_FRAME_HDR                 : ENABLED
+UVVM:                ID_FRAME_DATA                : ENABLED
+UVVM:                ID_COVERAGE_MAKEBIN          : DISABLED
+UVVM:                ID_COVERAGE_ADDBIN           : DISABLED
+UVVM:                ID_COVERAGE_ICOVER           : DISABLED
+UVVM:                ID_COVERAGE_CONFIG           : ENABLED
+UVVM:                ID_COVERAGE_SUMMARY          : ENABLED
+UVVM:                ID_COVERAGE_HOLES            : ENABLED
+UVVM:                ID_UVVM_SEND_CMD             : ENABLED
+UVVM:                ID_UVVM_CMD_ACK              : ENABLED
+UVVM:                ID_UVVM_CMD_RESULT           : ENABLED
+UVVM:                ID_CMD_INTERPRETER           : ENABLED
+UVVM:                ID_CMD_INTERPRETER_WAIT      : ENABLED
+UVVM:                ID_IMMEDIATE_CMD             : ENABLED
+UVVM:                ID_IMMEDIATE_CMD_WAIT        : ENABLED
+UVVM:                ID_CMD_EXECUTOR              : ENABLED
+UVVM:                ID_CMD_EXECUTOR_WAIT         : ENABLED
+UVVM:                ID_CHANNEL_EXECUTOR          : ENABLED
+UVVM:                ID_CHANNEL_EXECUTOR_WAIT     : ENABLED
+UVVM:                ID_NEW_HVVC_CMD_SEQ          : ENABLED
+UVVM:                ID_INSERTED_DELAY            : ENABLED
+UVVM:                ID_OLD_AWAIT_COMPLETION      : ENABLED
+UVVM:                ID_AWAIT_COMPLETION          : ENABLED
+UVVM:                ID_AWAIT_COMPLETION_LIST     : ENABLED
+UVVM:                ID_AWAIT_COMPLETION_WAIT     : ENABLED
+UVVM:                ID_AWAIT_COMPLETION_END      : ENABLED
+UVVM:                ID_UVVM_DATA_QUEUE           : ENABLED
+UVVM:                ID_CONSTRUCTOR               : ENABLED
+UVVM:                ID_CONSTRUCTOR_SUB           : ENABLED
+UVVM:                ID_VVC_ACTIVITY              : ENABLED
+UVVM:                ID_MONITOR                   : ENABLED
+UVVM:                ID_MONITOR_ERROR             : ENABLED
+UVVM:                ID_DATA                      : ENABLED
+UVVM:                ID_CTRL                      : ENABLED
+UVVM:                ID_SPEC_COV_INIT             : ENABLED
+UVVM:                ID_SPEC_COV_REQS             : ENABLED
+UVVM:                ID_SPEC_COV                  : ENABLED
+UVVM:                ID_FILE_OPEN_CLOSE           : ENABLED
+UVVM:                ID_FILE_PARSER               : ENABLED
+UVVM:      --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UVVM:      
+UVVM: 
+UVVM: ***  TB_WARNING #1  ***
+UVVM:         0.001 ns   (Util buried)
+UVVM:                    Time stamp has been truncated to 1 decimal(s) in the next log message - settable in adaptations_pkg. (Actual time stamp has more decimals than
+UVVM:                    displayed) 
+UVVM:                    This alert is shown once only.
+UVVM: 
+UVVM: ID_LOG_MSG_CTRL                    0.0 ns  TB seq.                        enable_log_msg(ALL_MESSAGES). 
+UVVM: 
+UVVM: 
+UVVM: ID_LOG_HDR                       100.0 ns  TB seq.                        Simulation for UART_TX
+UVVM: -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UVVM: ID_BFM                         82575.2 ns  TB seq.                        uart_receive()=> x"00". 'Receiving data to DUT(UART_TX)'
+UVVM: ID_POS_ACK                     86910.0 ns  TB seq.                        check_value() => OK, for slv x"00"'. 'Transmit byte = 00 Received byte = 00'
+UVVM: ID_BFM                        169385.2 ns  TB seq.                        uart_receive()=> x"A". 'Receiving data to DUT(UART_TX)'
+UVVM: ID_POS_ACK                    173720.0 ns  TB seq.                        check_value() => OK, for slv x"0A"'. 'Transmit byte = 0A Received byte = 0A'
+UVVM: ID_BFM                        256195.2 ns  TB seq.                        uart_receive()=> x"14". 'Receiving data to DUT(UART_TX)'
+UVVM: ID_POS_ACK                    260530.0 ns  TB seq.                        check_value() => OK, for slv x"14"'. 'Transmit byte = 14 Received byte = 14'
+UVVM: ID_BFM                        343005.2 ns  TB seq.                        uart_receive()=> x"1E". 'Receiving data to DUT(UART_TX)'
+UVVM: ID_POS_ACK                    347340.0 ns  TB seq.                        check_value() => OK, for slv x"1E"'. 'Transmit byte = 1E Received byte = 1E'
+UVVM: ID_BFM                        429815.2 ns  TB seq.                        uart_receive()=> x"28". 'Receiving data to DUT(UART_TX)'
+UVVM: ID_POS_ACK                    434150.0 ns  TB seq.                        check_value() => OK, for slv x"28"'. 'Transmit byte = 28 Received byte = 28'
+UVVM: ID_BFM                        516625.2 ns  TB seq.                        uart_receive()=> x"32". 'Receiving data to DUT(UART_TX)'
+UVVM: ID_POS_ACK                    520960.0 ns  TB seq.                        check_value() => OK, for slv x"32"'. 'Transmit byte = 32 Received byte = 32'
+UVVM: ID_BFM                        603435.2 ns  TB seq.                        uart_receive()=> x"3C". 'Receiving data to DUT(UART_TX)'
+UVVM: ID_POS_ACK                    607770.0 ns  TB seq.                        check_value() => OK, for slv x"3C"'. 'Transmit byte = 3C Received byte = 3C'
+UVVM: ID_BFM                        690245.2 ns  TB seq.                        uart_receive()=> x"46". 'Receiving data to DUT(UART_TX)'
+UVVM: ID_POS_ACK                    694580.0 ns  TB seq.                        check_value() => OK, for slv x"46"'. 'Transmit byte = 46 Received byte = 46'
+UVVM: ID_BFM                        777055.2 ns  TB seq.                        uart_receive()=> x"50". 'Receiving data to DUT(UART_TX)'
+UVVM: ID_POS_ACK                    781390.0 ns  TB seq.                        check_value() => OK, for slv x"50"'. 'Transmit byte = 50 Received byte = 50'
+UVVM: ID_BFM                        863865.2 ns  TB seq.                        uart_receive()=> x"5A". 'Receiving data to DUT(UART_TX)'
+UVVM: ID_POS_ACK                    868200.0 ns  TB seq.                        check_value() => OK, for slv x"5A"'. 'Transmit byte = 5A Received byte = 5A'
+UVVM: ID_BFM                        950675.2 ns  TB seq.                        uart_receive()=> x"64". 'Receiving data to DUT(UART_TX)'
+UVVM: ID_POS_ACK                    955010.0 ns  TB seq.                        check_value() => OK, for slv x"64"'. 'Transmit byte = 64 Received byte = 64'
+UVVM: 
+UVVM: 
+UVVM: ID_LOG_HDR                    955010.0 ns  TB seq.                        Simulation for UART_RX
+UVVM: -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UVVM: ID_BFM                       1041815.5 ns  TB seq.                        uart_transmit(x"00") completed. 'Transmitting data to DUT(UART_RX)'
+UVVM: ID_POS_ACK                   1041815.5 ns  TB seq.                        check_value() => OK, for slv x"00"'. 'Transmit byte = 00 Received byte = 00'
+UVVM: ID_BFM                       1128621.0 ns  TB seq.                        uart_transmit(x"0A") completed. 'Transmitting data to DUT(UART_RX)'
+UVVM: ID_POS_ACK                   1128621.0 ns  TB seq.                        check_value() => OK, for slv x"0A"'. 'Transmit byte = 0A Received byte = 0A'
+UVVM: ID_BFM                       1215426.5 ns  TB seq.                        uart_transmit(x"14") completed. 'Transmitting data to DUT(UART_RX)'
+UVVM: ID_POS_ACK                   1215426.5 ns  TB seq.                        check_value() => OK, for slv x"14"'. 'Transmit byte = 14 Received byte = 14'
+UVVM: ID_BFM                       1302232.0 ns  TB seq.                        uart_transmit(x"1E") completed. 'Transmitting data to DUT(UART_RX)'
+UVVM: ID_POS_ACK                   1302232.0 ns  TB seq.                        check_value() => OK, for slv x"1E"'. 'Transmit byte = 1E Received byte = 1E'
+UVVM: ID_BFM                       1389037.5 ns  TB seq.                        uart_transmit(x"28") completed. 'Transmitting data to DUT(UART_RX)'
+UVVM: ID_POS_ACK                   1389037.5 ns  TB seq.                        check_value() => OK, for slv x"28"'. 'Transmit byte = 28 Received byte = 28'
+UVVM: ID_BFM                       1475843.0 ns  TB seq.                        uart_transmit(x"32") completed. 'Transmitting data to DUT(UART_RX)'
+UVVM: ID_POS_ACK                   1475843.0 ns  TB seq.                        check_value() => OK, for slv x"32"'. 'Transmit byte = 32 Received byte = 32'
+UVVM: ID_BFM                       1562648.5 ns  TB seq.                        uart_transmit(x"3C") completed. 'Transmitting data to DUT(UART_RX)'
+UVVM: ID_POS_ACK                   1562648.5 ns  TB seq.                        check_value() => OK, for slv x"3C"'. 'Transmit byte = 3C Received byte = 3C'
+UVVM: ID_BFM                       1649454.0 ns  TB seq.                        uart_transmit(x"46") completed. 'Transmitting data to DUT(UART_RX)'
+UVVM: ID_POS_ACK                   1649454.0 ns  TB seq.                        check_value() => OK, for slv x"46"'. 'Transmit byte = 46 Received byte = 46'
+UVVM: ID_BFM                       1736259.5 ns  TB seq.                        uart_transmit(x"50") completed. 'Transmitting data to DUT(UART_RX)'
+UVVM: ID_POS_ACK                   1736259.5 ns  TB seq.                        check_value() => OK, for slv x"50"'. 'Transmit byte = 50 Received byte = 50'
+UVVM: ID_BFM                       1823065.0 ns  TB seq.                        uart_transmit(x"5A") completed. 'Transmitting data to DUT(UART_RX)'
+UVVM: ID_POS_ACK                   1823065.0 ns  TB seq.                        check_value() => OK, for slv x"5A"'. 'Transmit byte = 5A Received byte = 5A'
+UVVM: ID_BFM                       1909870.5 ns  TB seq.                        uart_transmit(x"64") completed. 'Transmitting data to DUT(UART_RX)'
+UVVM: ID_POS_ACK                   1909870.5 ns  TB seq.                        check_value() => OK, for slv x"64"'. 'Transmit byte = 64 Received byte = 64'
+UVVM:      
+UVVM:      ====================================================================================================================================================================
+UVVM:      *** FINAL SUMMARY OF ALL ALERTS ***
+UVVM:      ====================================================================================================================================================================
+UVVM:                                REGARDED   EXPECTED  IGNORED      Comment?
+UVVM:                NOTE         :      0         0         0         ok
+UVVM:                TB_NOTE      :      0         0         0         ok
+UVVM:                WARNING      :      0         0         0         ok
+UVVM:                TB_WARNING   :      1         0         0         *** TB_WARNING ***
+UVVM:                MANUAL_CHECK :      0         0         0         ok
+UVVM:                ERROR        :      0         0         0         ok
+UVVM:                TB_ERROR     :      0         0         0         ok
+UVVM:                FAILURE      :      0         0         0         ok
+UVVM:                TB_FAILURE   :      0         0         0         ok
+UVVM:      ====================================================================================================================================================================
+UVVM:      >> Simulation SUCCESS: No mismatch between counted and expected serious alerts, but mismatch in minor alerts
+UVVM:      ====================================================================================================================================================================
+UVVM:      
+UVVM:      
+UVVM: 
+UVVM: 
+UVVM: ID_LOG_HDR                   1910870.5 ns  TB seq.                        SIMULATION COMPLETED
+UVVM: -------------------------------------------------------------------------------------------------------------------------------------------------------------------------

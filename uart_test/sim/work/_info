@@ -1,0 +1,202 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_stream_test/sim
+Euart_rx
+Z0 w1710968091
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 229
+Z4 dC:/Users/oktay/Desktop/repo/soc_course/soc_imp/uart_test/sim
+Z5 8C:\Users\oktay\Desktop\repo\soc_course\soc_imp\uart_test\src\uart_rx.vhd
+Z6 FC:\Users\oktay\Desktop\repo\soc_course\soc_imp\uart_test\src\uart_rx.vhd
+l0
+L5 1
+VI^QZAPO:FoaViJ8W[8M@T2
+!s100 iS`<Gc`4XBUzR=NZWSTnc3
+Z7 OV;C;2020.1;71
+33
+Z8 !s110 1711036856
+!i10b 1
+Z9 !s108 1711036855.000000
+Z10 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:\Users\oktay\Desktop\repo\soc_course\soc_imp\uart_test\src\uart_rx.vhd|
+Z11 !s107 C:\Users\oktay\Desktop\repo\soc_course\soc_imp\uart_test\src\uart_rx.vhd|
+!i113 1
+Z12 o-work work -2008 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Artl
+R1
+R2
+R3
+Z14 DEx4 work 7 uart_rx 0 22 I^QZAPO:FoaViJ8W[8M@T2
+!i122 229
+l33
+L22 89
+VDh4VfBoYcLcG`JQ`no71[3
+!s100 1BA0SIL_[^cfSo7fToQH20
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Euart_tb
+Z15 w1711036852
+Z16 D^#x15 bitvis_vip_uart 11 vvc_context 0 22 HF2GZ:bJ5i7@i@f[AcHX52
+Z17 DPx15 bitvis_vip_uart 35 td_vvc_framework_common_methods_pkg 0 22 e3]<RQ3Qddj]16fQO4^eT0
+Z18 DPx21 bitvis_vip_scoreboard 22 generic_sb_support_pkg 0 22 e`fbhnDlgBDhTh29oIA:d0
+Z19 DPx21 bitvis_vip_scoreboard 14 generic_sb_pkg 0 22 mI=KKGaeCV__Yjz34MiS_1
+Z20 DPx15 bitvis_vip_uart 10 vvc_sb_pkg 0 22 5ZQ5FePfaSo5@Fn::4b``2
+Z21 DPx15 bitvis_vip_uart 21 td_target_support_pkg 0 22 MDKg4;mfREfDa[0El@[L]0
+Z22 DPx15 bitvis_vip_uart 15 monitor_cmd_pkg 0 22 DEkUIkJOBDCiNXS@dbkjZ0
+Z23 DPx15 bitvis_vip_uart 11 vvc_cmd_pkg 0 22 cka2_JVUzAWIz1h?bihFO0
+Z24 DPx18 uvvm_vvc_framework 22 ti_protected_types_pkg 0 22 V5o`0JcA=08gKW3MTOQdH3
+Z25 DPx18 uvvm_vvc_framework 28 ti_vvc_framework_support_pkg 0 22 mN]XgR[;`J^YOhlkf6`5g0
+Z26 DPx15 bitvis_vip_uart 15 vvc_methods_pkg 0 22 QjPia9TBC[7`[7X:AY?ha3
+Z27 DPx15 bitvis_vip_uart 12 uart_bfm_pkg 0 22 ER[YQg2DdWf68[R_EC@WU0
+Z28 DPx15 bitvis_vip_uart 15 transaction_pkg 0 22 `<^`YUT[;B_8ciGM7c_b32
+Z29 D^#x9 uvvm_util 17 uvvm_util_context 0 22 VIeL_T@^nGBO`3VDj:6^o0
+Z30 DPx9 uvvm_util 12 func_cov_pkg 0 22 9EQkZ^c@2TVQ]=STVZKXh3
+Z31 DPx9 uvvm_util 8 rand_pkg 0 22 i8fV@1=g=70jJGXB48^BB1
+Z32 DPx9 uvvm_util 14 bfm_common_pkg 0 22 :zKRB9a4SU2UBNiFgOGbQ0
+Z33 DPx9 uvvm_util 19 alert_hierarchy_pkg 0 22 20^ReV1SlPIUKUE0S6G751
+Z34 DPx9 uvvm_util 11 license_pkg 0 22 Z`YkXoOQU[c2J;fZE5mVm1
+Z35 DPx9 uvvm_util 11 methods_pkg 0 22 W=o>diGg]aeaG6F^_08Zg3
+Z36 DPx9 uvvm_util 25 hierarchy_linked_list_pkg 0 22 =FC85Bb03M1jJK0@Xi[<Z1
+Z37 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+Z38 DPx9 uvvm_util 18 string_methods_pkg 0 22 dn;1CMS7f>_1ZIOW45PjV2
+Z39 DPx9 uvvm_util 19 protected_types_pkg 0 22 ]Qf^dSgWda9adh=in20Fc2
+Z40 DPx9 uvvm_util 15 adaptations_pkg 0 22 Ugo=4goD?6UmSG1=JGne21
+Z41 DPx9 uvvm_util 39 global_signals_and_shared_variables_pkg 0 22 k_bbj`DBmlK5]ZQU=A8nn0
+R1
+Z42 DPx9 uvvm_util 9 types_pkg 0 22 Z_B>lkao@c4f?3z5];8891
+Z43 DPx3 std 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
+Z44 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z45 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R2
+R3
+!i122 231
+R4
+Z46 8C:/Users/oktay/Desktop/repo/soc_course/soc_imp/uart_test/sim/uart_tb.vhd
+Z47 FC:/Users/oktay/Desktop/repo/soc_course/soc_imp/uart_test/sim/uart_tb.vhd
+l0
+L23 1
+Vn2eeHgCJZKj0KLB=:RdN?1
+!s100 g[@oFlBZPYP<KML8KJ8a[3
+R7
+33
+R8
+!i10b 1
+Z48 !s108 1711036856.000000
+Z49 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/oktay/Desktop/repo/soc_course/soc_imp/uart_test/sim/uart_tb.vhd|
+Z50 !s107 C:/Users/oktay/Desktop/repo/soc_course/soc_imp/uart_test/sim/uart_tb.vhd|
+!i113 1
+R12
+R13
+Asim
+R14
+Z51 DEx4 work 7 uart_tx 0 22 =A`O3PH[X?B4d`?zXdfi=3
+R16
+R17
+R18
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+R27
+R28
+R29
+R30
+R31
+R32
+R33
+R34
+R35
+R36
+R37
+R38
+R39
+R40
+R41
+R1
+R42
+R43
+R44
+R45
+R2
+R3
+Z52 DEx4 work 7 uart_tb 0 22 n2eeHgCJZKj0KLB=:RdN?1
+!i122 231
+l52
+Z53 L26 140
+VkI`XMBCfO^52IEV7CnHji2
+!s100 CO_C5@>3:_RjPlNaDVVXa0
+R7
+33
+R8
+!i10b 1
+R48
+R49
+R50
+!i113 1
+R12
+R13
+Euart_tx
+Z54 w1710966296
+R1
+R2
+R3
+!i122 230
+R4
+Z55 8C:/Users/oktay/Desktop/repo/soc_course/soc_imp/uart_test/src/uart_tx.vhd
+Z56 FC:/Users/oktay/Desktop/repo/soc_course/soc_imp/uart_test/src/uart_tx.vhd
+l0
+L5 1
+V=A`O3PH[X?B4d`?zXdfi=3
+!s100 oD=[`lMn4dUDRPjj1JL_;2
+R7
+33
+R8
+!i10b 1
+R48
+Z57 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/Users/oktay/Desktop/repo/soc_course/soc_imp/uart_test/src/uart_tx.vhd|
+Z58 !s107 C:/Users/oktay/Desktop/repo/soc_course/soc_imp/uart_test/src/uart_tx.vhd|
+!i113 1
+R12
+R13
+Artl
+R1
+R2
+R3
+R51
+!i122 230
+l31
+L24 90
+VEQb<M[4B3GQAbRDeIE2lN0
+!s100 lnC:8`bP3<<P0j_g=3nWg3
+R7
+33
+R8
+!i10b 1
+R48
+R57
+R58
+!i113 1
+R12
+R13
