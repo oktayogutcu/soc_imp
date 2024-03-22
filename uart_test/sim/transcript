@@ -4246,3 +4246,7 @@ run -all
 # UVVM: ID_LOG_HDR                   1910870.5 ns  TB seq.                        SIMULATION COMPLETED
 # UVVM: -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Break in Process p_main at C:/Users/oktay/Desktop/repo/soc_course/soc_imp/uart_test/sim/uart_tb.vhd line 160
+quit -sim
+# End time: 13:17:35 on Mar 21,2024, Elapsed time: 23:24:28
+# Errors: 0, Warnings: 2
+project open C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_stream_test/sim/axi_stream_test

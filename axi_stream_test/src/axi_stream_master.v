@@ -29,13 +29,15 @@
 		output wire [C_M_AXIS_TDATA_WIDTH-1 : 0] M_AXIS_TDATA,
 		// TSTRB is the byte qualifier that indicates whether the content of the associated byte of TDATA is processed as a data byte or a position byte.
 		output wire [(C_M_AXIS_TDATA_WIDTH/8)-1 : 0] M_AXIS_TSTRB,
+
+		output wire [(C_M_AXIS_TDATA_WIDTH/8)-1 : 0] M_AXIS_TKEEP,
 		// TLAST indicates the boundary of a packet.
 		output wire  M_AXIS_TLAST,
 		// TREADY indicates that the slave can accept a transfer in the current cycle.
 		input wire  M_AXIS_TREADY
 	);
 	// Total number of output data                                                 
-	localparam NUMBER_OF_OUTPUT_WORDS = 8;                                               
+	localparam NUMBER_OF_OUTPUT_WORDS = 256;                                               
 	                                                                                     
 	// function called clogb2 that returns an integer which has the                      
 	// value of the ceiling of the log base 2.                                           
@@ -91,7 +93,7 @@
 	assign M_AXIS_TDATA	= stream_data_out;
 	assign M_AXIS_TLAST	= axis_tlast_delay;
 	assign M_AXIS_TSTRB	= {(C_M_AXIS_TDATA_WIDTH/8){1'b1}};
-
+	assign M_AXIS_TKEEP = {(C_M_AXIS_TDATA_WIDTH/8){1'b1}};
 
 	// Control state machine implementation                             
 	always @(posedge M_AXIS_ACLK)                                             
@@ -217,7 +219,7 @@
 	        end                                          
 	      else if (tx_en)// && M_AXIS_TSTRB[byte_index]  
 	        begin                                        
-	          stream_data_out <= read_pointer + 32'b1;   
+	          stream_data_out <= read_pointer;   
 	        end                                          
 	    end                                              
 

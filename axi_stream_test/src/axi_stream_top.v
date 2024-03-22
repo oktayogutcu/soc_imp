@@ -30,16 +30,17 @@
 		input wire [C_S00_AXIS_TDATA_WIDTH-1 : 0] s00_axis_tdata,
 		input wire [(C_S00_AXIS_TDATA_WIDTH/8)-1 : 0] s00_axis_tstrb,
 		input wire  s00_axis_tlast,
-		input wire  s00_axis_tvalid
+		input wire  s00_axis_tvalid,
 
 		// Ports of Axi Master Bus Interface M00_AXIS
-		//input wire  m00_axis_aclk,
-		//input wire  m00_axis_aresetn,
-		//output wire  m00_axis_tvalid,
-		//output wire [C_M00_AXIS_TDATA_WIDTH-1 : 0] m00_axis_tdata,
-		//output wire [(C_M00_AXIS_TDATA_WIDTH/8)-1 : 0] m00_axis_tstrb,
-		//output wire  m00_axis_tlast,
-		//input wire  m00_axis_tready
+		input wire  m00_axis_aclk,
+		input wire  m00_axis_aresetn,
+		output wire  m00_axis_tvalid,
+		output wire [C_M00_AXIS_TDATA_WIDTH-1 : 0] m00_axis_tdata,
+		output wire [(C_M00_AXIS_TDATA_WIDTH/8)-1 : 0] m00_axis_tstrb,
+		output wire [(C_M00_AXIS_TDATA_WIDTH/8)-1 : 0] m00_axis_tkeep,
+		output wire  m00_axis_tlast,
+		input wire  m00_axis_tready
 	);
 	
 	reg 	read_counter;
@@ -65,18 +66,19 @@
 	);
 
 // Instantiation of Axi Bus Interface M00_AXIS
-//	axi_stream_master # ( 
-//		.C_M_AXIS_TDATA_WIDTH(C_M00_AXIS_TDATA_WIDTH),
-//		.C_M_START_COUNT(C_M00_AXIS_START_COUNT)
-//	) axi_stream_master_inst (
-//		.M_AXIS_ACLK(m00_axis_aclk),
-//		.M_AXIS_ARESETN(m00_axis_aresetn),
-//		.M_AXIS_TVALID(m00_axis_tvalid),
-//		.M_AXIS_TDATA(m00_axis_tdata),
-//		.M_AXIS_TSTRB(m00_axis_tstrb),
-//		.M_AXIS_TLAST(m00_axis_tlast),
-//		.M_AXIS_TREADY(m00_axis_tready)
-//	);
+	axi_stream_master # ( 
+		.C_M_AXIS_TDATA_WIDTH(C_M00_AXIS_TDATA_WIDTH),
+		.C_M_START_COUNT(C_M00_AXIS_START_COUNT)
+	) axi_stream_master_inst (
+		.M_AXIS_ACLK(m00_axis_aclk),
+		.M_AXIS_ARESETN(m00_axis_aresetn),
+		.M_AXIS_TVALID(m00_axis_tvalid),
+		.M_AXIS_TDATA(m00_axis_tdata),
+		.M_AXIS_TSTRB(m00_axis_tstrb),
+		.M_AXIS_TKEEP(m00_axis_tkeep),
+		.M_AXIS_TLAST(m00_axis_tlast),
+		.M_AXIS_TREADY(m00_axis_tready)
+	);
 
 	// Add user logic here
 	always@(posedge s00_axis_aclk)

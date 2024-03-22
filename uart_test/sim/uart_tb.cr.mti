@@ -7,6 +7,61 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity uart_rx
 -- Compiling architecture rtl of uart_rx
 
+} {} {}} C:/Users/oktay/Desktop/repo/soc_course/soc_imp/uart_test/sim/uart_tb.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/oktay/Desktop/repo/soc_course/soc_imp/uart_test/sim/uart_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package ENV
+-- Loading context declaration uvvm_util_context
+-- Loading package NUMERIC_STD
+-- Loading package types_pkg
+-- Loading package adaptations_pkg
+-- Loading package MATH_REAL
+-- Loading package string_methods_pkg
+-- Loading package protected_types_pkg
+-- Loading package global_signals_and_shared_variables_pkg
+-- Loading package hierarchy_linked_list_pkg
+-- Loading package license_pkg
+-- Loading package alert_hierarchy_pkg
+-- Loading package methods_pkg
+-- Loading package bfm_common_pkg
+-- Loading package rand_pkg
+-- Loading package func_cov_pkg
+-- Loading context declaration vvc_context
+-- Loading context declaration uvvm_util_context
+-- Loading package transaction_pkg
+-- Loading context declaration uvvm_util_context
+-- Loading package uart_bfm_pkg
+-- Loading context declaration uvvm_util_context
+-- Loading context declaration uvvm_util_context
+-- Loading context declaration uvvm_util_context
+-- Loading package ti_protected_types_pkg
+-- Loading package ti_vvc_framework_support_pkg
+-- Loading context declaration uvvm_util_context
+-- Loading package vvc_cmd_pkg
+-- Loading context declaration uvvm_util_context
+-- Loading package monitor_cmd_pkg
+-- Loading context declaration uvvm_util_context
+-- Loading package td_target_support_pkg
+-- Loading package instance vvc_sb_pkg
+-- Loading context declaration uvvm_util_context
+-- Loading context declaration uvvm_util_context
+-- Loading package generic_sb_support_pkg
+-- Loading package generic_sb_pkg
+-- Loading package body generic_sb_pkg
+-- Loading package generic_queue_pkg
+-- Loading package body generic_queue_pkg
+-- Loading package vvc_methods_pkg
+-- Loading context declaration uvvm_util_context
+-- Loading package td_vvc_framework_common_methods_pkg
+-- Compiling entity uart_tb
+-- Compiling architecture sim of uart_tb
+-- Loading entity uart_tx
+-- Loading entity uart_rx
+
 } {} {}} C:/Users/oktay/Desktop/repo/soc_course/soc_imp/uart_test/src/uart_tx.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/oktay/Desktop/repo/soc_course/soc_imp/uart_test/src/uart_tx.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD

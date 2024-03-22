@@ -88,28 +88,28 @@ R28
 R29
 R30
 vaxi_stream_master
-Z33 !s110 1710538288
+Z33 !s110 1711069241
 !i10b 1
-!s100 <K;chB;VO2c?5X@bg3JG91
+!s100 nB>z[8=e[WQ^f@VjI_3Uk2
 Z34 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IW>OV][QZ2]XN_>Nd`ed0[3
+I^AiVX37>NChTQkl_3bJP52
 Z35 VDg1SIo80bB@j0V0VzS_@n1
 R20
-w1710362817
+w1711067225
 8C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_stream_test/src/axi_stream_master.v
 FC:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_stream_test/src/axi_stream_master.v
-!i122 287
-L0 4 225
+!i122 426
+L0 4 227
 Z36 OV;L;2020.1;71
 r1
 !s85 0
 31
-!s108 1710538287.000000
+Z37 !s108 1711069241.000000
 !s107 C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_stream_test/src/axi_stream_master.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_stream_test/src/axi_stream_master.v|
 !i113 1
-Z37 o-work work
-Z38 tCvgOpt 0
+Z38 o-work work
+Z39 tCvgOpt 0
 vaxi_stream_slave
 R33
 !i10b 1
@@ -121,20 +121,20 @@ R20
 w1710538283
 8C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_stream_test/src/axi_stream_slave.v
 FC:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_stream_test/src/axi_stream_slave.v
-!i122 288
+!i122 427
 L0 4 203
 R36
 r1
 !s85 0
 31
-Z39 !s108 1710538288.000000
+R37
 !s107 C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_stream_test/src/axi_stream_slave.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_stream_test/src/axi_stream_slave.v|
 !i113 1
-R37
 R38
+R39
 Eaxi_stream_tb
-Z40 w1710534662
+Z40 w1711069236
 R1
 R2
 R3
@@ -154,7 +154,7 @@ R16
 R17
 R18
 R19
-!i122 290
+!i122 429
 R20
 R21
 R22
@@ -166,7 +166,7 @@ R24
 33
 R33
 !i10b 1
-R39
+R37
 R27
 R28
 !i113 1
@@ -195,16 +195,16 @@ R17
 R18
 R19
 Z41 DEx4 work 13 axi_stream_tb 0 22 8`C@^CCKnWHQ[OAld^[?43
-!i122 290
-l40
-Z42 L17 136
-Z43 VDYkP5KQ[2J468fz?L6^Sc2
-Z44 !s100 5GR;5Ugi=CN]HR57VBJLL3
+!i122 429
+l49
+L17 196
+Vo[<RRSP>:IA46h8;ioi3]2
+!s100 dIJIk^VzgVcCKD;@h0D;l1
 R24
 33
 R33
 !i10b 1
-R39
+R37
 R27
 R28
 !i113 1
@@ -213,23 +213,23 @@ R30
 vaxi_stream_top
 R33
 !i10b 1
-!s100 no:zRgfXR[iMPfe6QXJSj3
+!s100 V8ilQ]EcVgUWh[SX7ID2g0
 R34
-Iof=DJjmAKZSHQ^glb2V<`1
+IMkC6F_^JO30bO;FRG4;[g2
 R35
 R20
-w1710534876
+w1711067160
 8C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_stream_test/src/axi_stream_top.v
 FC:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_stream_test/src/axi_stream_top.v
-!i122 289
-L0 4 113
+!i122 428
+L0 4 115
 R36
 r1
 !s85 0
 31
-R39
+R37
 !s107 C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_stream_test/src/axi_stream_top.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_stream_test/src/axi_stream_top.v|
 !i113 1
-R37
 R38
+R39
