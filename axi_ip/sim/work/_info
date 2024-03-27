@@ -1,0 +1,173 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_full_test/sim
+vaxi_lite_slave
+Z0 !s110 1711565997
+!i10b 1
+!s100 eaz`JPV_IXeDi5A6=8j2X3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I>IF79SY??41OBbgg9gQI22
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_ip/sim
+w1710188811
+8C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_ip/src/axi_lite_slave.v
+FC:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_ip/src/axi_lite_slave.v
+!i122 54
+L0 4 709
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1711565997.000000
+!s107 C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_ip/src/axi_lite_slave.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_ip/src/axi_lite_slave.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vaxi_lite_top
+!s110 1711564691
+!i10b 1
+!s100 ;YB8SKE>Ej>o>0V3PZ1Eb1
+R1
+IgVPeG9HD1EYFlT3Mmi=_;3
+R2
+R3
+w1710191574
+8C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_ip/src/axi_lite_top.v
+FC:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_ip/src/axi_lite_top.v
+!i122 38
+L0 4 76
+R4
+r1
+!s85 0
+31
+!s108 1711564691.000000
+!s107 C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_ip/src/axi_lite_top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_ip/src/axi_lite_top.v|
+!i113 1
+R6
+R7
+vaxi_stream_master
+R0
+!i10b 1
+!s100 H78dOMeg6hb6];z@z]ii:0
+R1
+INkDN=1lNPgVlia_fPB>Gn2
+R2
+R3
+w1711565992
+8C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_ip/src/axi_stream_master.v
+FC:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_ip/src/axi_stream_master.v
+!i122 55
+L0 4 293
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_ip/src/axi_stream_master.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_ip/src/axi_stream_master.v|
+!i113 1
+R6
+R7
+vaxi_stream_slave
+R0
+!i10b 1
+!s100 1^Q_RblT5<CfF4?OIHn`M1
+R1
+IYAHjIKi4_`h:4g]iZk]8G2
+R2
+R3
+w1711499924
+8C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_ip/src/axi_stream_slave.v
+FC:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_ip/src/axi_stream_slave.v
+!i122 56
+L0 4 203
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_ip/src/axi_stream_slave.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_ip/src/axi_stream_slave.v|
+!i113 1
+R6
+R7
+vaxi_stream_top
+R0
+!i10b 1
+!s100 V8ilQ]EcVgUWh[SX7ID2g0
+R1
+IF168Rk=`UH5C1<93TD=@`3
+R2
+R3
+w1711067160
+8C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_ip/src/axi_stream_top.v
+FC:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_ip/src/axi_stream_top.v
+!i122 57
+L0 4 115
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_ip/src/axi_stream_top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_ip/src/axi_stream_top.v|
+!i113 1
+R6
+R7
+vmoduleName
+!s110 1711565996
+!i10b 1
+!s100 j_c[GRI`mg9HRaQnMQhX=3
+R1
+IUBK`cR3S@jF@MOS^`C=j^3
+R2
+R3
+w1711504678
+8C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_ip/src/axi_ip.v
+FC:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_ip/src/axi_ip.v
+!i122 53
+L0 3 158
+R4
+r1
+!s85 0
+31
+!s108 1711565996.000000
+!s107 C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_ip/src/axi_ip.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_ip/src/axi_ip.v|
+!i113 1
+R6
+R7
+nmodule@name
+vop
+R0
+!i10b 1
+!s100 ^Zo^ONI@2BWTk]PW`2>A60
+R1
+I=@jCQJ8BggJCGWdabZndP2
+R2
+R3
+w1711504472
+8C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_ip/src/op.v
+FC:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_ip/src/op.v
+!i122 58
+L0 1 27
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_ip/src/op.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/oktay/Desktop/repo/soc_course/soc_imp/axi_ip/src/op.v|
+!i113 1
+R6
+R7
